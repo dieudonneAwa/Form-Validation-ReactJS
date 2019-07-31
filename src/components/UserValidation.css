@@ -1,0 +1,67 @@
+* {
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+}
+
+.form-wrapper {
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #ccc;
+  padding: 40px;
+  background-color: #fff;
+  width: 500px;
+}
+
+.form, div, h1, label, small, a, p {
+  background-color: #fff;
+}
+
+.form-group, input {
+  width: 98%;
+  padding: 7px 0 7px 3px;
+  border-radius: 3px;
+}
+
+input[type='text'], input[type='password'], input[type='email'] {
+  border: 1px solid #ccc;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+input[type='submit'] {
+  width: 95%;
+  border: none;
+  color: white;
+  background-color: rgb(62, 185, 62); 
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 5px 10px 3px;
+}
+
+.error {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+  color: blue;
+}
+
+.disable {
+  visibility: hidden;
+}
+
+.enable {
+  visibility: visible;
+}
+
+a {cursor: pointer; color: blue; font-size: 15px;}
+
+#forgettenPass {
+  float: right;
+  text-decoration: none;
+}
