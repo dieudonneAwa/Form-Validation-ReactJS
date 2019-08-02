@@ -8,7 +8,7 @@
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
-  "homepage": "https://github.com/dieudonneAwa/Form-Validation-ReactJS",
+  "homepage": "https://dieudonneAwa.github.io/Form-Validation-ReactJS",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
